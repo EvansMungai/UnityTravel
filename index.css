@@ -152,6 +152,12 @@ h2 {
 .card-text {
   color: #0C0C0D;
 }
+.testimonials{
+  background-color: #37ABF6;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
 
 
 /* Responsive */
