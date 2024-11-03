@@ -152,11 +152,40 @@ h2 {
 .card-text {
   color: #0C0C0D;
 }
-.testimonials{
+
+.testimonials {
   background-color: #37ABF6;
   padding-top: 3rem;
   padding-bottom: 5rem;
   text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 33.33%;
+}
+
+.footer-icons {
+  margin-left: 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  color: #0C0C0D;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px; 
 }
 
 
@@ -179,7 +208,8 @@ h2 {
   .hero-heading {
     font-size: 2rem;
   }
-  .card{
+
+  .card {
     flex: 0 0 50%;
     max-width: 50%;
   }
